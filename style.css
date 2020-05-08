@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div.container{
+    width: auto;
+    text-align: center;
+}
+
+div.containern{
+    width: auto;
+    margin: auto;
+    text-align: center;
+    background-color:#316dc3;
+
+}
+div.topbar{
+    text-align: center;
+    background-color:#316dc3 ;
+    padding: 6px 0px 8px 0px;
+}
+div.moto {
+    color:#ffffff;
+    margin: 3px 0px 0px 0px ;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+div.moto p{
+    margin: 6px 2px 5px 2px;
+    text-align: center;
+}
+div.social i{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+div.social{
+    margin: 0px 0px 5px 0px;
+}
+
+div.topbtn a{ 
+    font-size: 13px;
+    color:#427900;
+    background-color: white;
+     padding: 3px 2px 3px 2px;
+}
+div.topbtn{ 
+    padding: 8px 0px 0px 0px;
+}
+
+div.header{
+    text-align: center;
+    background-color: #f7f8fa;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+div.menu{
+    padding: 10px 10px 0px 15px;
+    
+}
+
+div.menu ul li {
+list-style: none;
+display: inline-block; 
+}
+
+div.menu ul li a{
+    display: inline-block; 
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+} 
+
+div.menu ul li a:hover{
+   background-color:#316dc3;
+}
+
+
+div.news{
+    text-align: center;
+    margin: 5px auto 5px auto;
+    font-size: 12px;
+}
+
+span.greencol{
+    color: #24ff0a;
+}
+span.bluecol{
+    color:#1f0bc3;
+}
+
+div.intro{
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:#f7f8fa ;
+}
+
+span.firstcol{
+    color: #316dc3;
+    font-family: 'Playfair Display', serif; 
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+span.secondcol{
+    color: #427900;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+h1.secondcol{
+    color: #427900;
+  
+}
+
+p.introduction{
+    margin: 0 auto;
+    text-align: justify;
+    color: #666666;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.count-text{
+    padding: 40px;
+    margin :0 auto;
+    background-color:#316dc3;
+}
+
+h1.doing{
+    text-align: center;
+}
+div.show-in-line{
+    display: inline-block;
+}
+
+div.work{
+    background-color:#f7f8fa;
+    padding: 6px;
+    text-align: center;
+}
+div.box{
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    margin: 15px 2px 15px 2px;
+    padding: 36px 0px 36px 0px;
+    box-shadow: 10px 10px 8px #888888;
+
+}
+
+div.project{
+    background-color:white;
+    padding: 20px;
+}
+
+h3.mission{
+    color: #316dc3;
+    text-align: start;
+}
+
+span.separator{
+    width: 70px;
+    height: 3px;
+    background-color: #3e6e07;
+    display: block;
+}
+
+div.smbox{
+    background-color: #f7f8fa;
+    padding: 15px;
+    margin: 8px 0px 8px 0px;
+    text-align: start;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+span.pr{
+    color: #316dc3;
+}
+
+marquee.upevents{
+    padding: 2px 0px 0px 0px;
+    background-color:white;
+
+height: 200px;
+}
+
+div.gallery{
+padding: 30px 0px 30px 0px;
+
+}
+
+div.footer{
+    padding: 20px;
+    color: white;
+    background-color: #25272e;
+}
+div.head{
+    text-align: start;
+}
+div.link{
+    text-align: start;
+}
+
+div.contact{
+    text-align: start;
+}
+div.contact i{
+    background-color: #316dd9;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 10px;
+}
+div.copy,div.claim{
+    background-color: #316dd9;
+    text-align: left;
+    color: white;
+}
+
+div.top a{
+    display: none;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom:20px;
+    right:20px;
+    text-decoration:none ;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+div.top a i{
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid green; 
+}
+div.top a i:hover{
+    background-color: #427900;
+
+}
+div.top{
+    text-align:right ;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
